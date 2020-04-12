@@ -20,4 +20,4 @@ user:
 #Not to be done on production environment
 management.endpoints.web.exposure.include: "*"
 
-spring.profiles.active: test
+spring.cloud.config.uri: http://localhost:8888
