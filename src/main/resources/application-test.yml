@@ -12,12 +12,10 @@ my:
 
 #User details
 user:
-    firstName: Chinmay
-    lastName: Bhat
-    age: 27
+    firstName: Rakesh
+    lastName: Murthy
+    age: 29
 
 #Enable all actuator endpoints
 #Not to be done on production environment
 management.endpoints.web.exposure.include: "*"
-
-spring.profiles.active: test
