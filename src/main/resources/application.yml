@@ -1,0 +1,21 @@
+#Application details
+app:
+   name: spring-boot-config
+   description: A Spring boot project ${app.name} to configure microservices
+
+#My properties
+my:
+#my.greeting:Hello World
+  list:
+      greeting: Chinmay,Avinash,Ajith
+  details: "{firstname:'Chinmay',lastname:'Bhat'}"
+
+#User details
+user:
+    firstName: Chinmay
+    lastName: Bhat
+    age: 27
+
+#Enable all actuator endpoints
+#Not to be done on production environment
+management.endpoints.web.exposure.include: "*"
